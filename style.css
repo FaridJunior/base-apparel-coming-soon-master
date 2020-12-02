@@ -171,7 +171,7 @@ form > .error-message {
     font-size: 3em;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .intro h1,
   .intro > p,
   .intro form {
