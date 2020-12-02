@@ -50,10 +50,14 @@ header,
   align-items: flex-start;
 }
 
-header .container,
-.intro .container {
-  width: 80%;
+header .container {
+  width: 60%;
   margin: 4em auto;
+}
+
+.intro .container {
+  width: 60%;
+  margin: 0em auto;
 }
 
 header {
@@ -65,9 +69,9 @@ header {
 #mobile-hero {
   display: none;
 }
-
 .intro {
   grid-area: intro;
+  justify-content: start;
 }
 .intro h1,
 .intro > p,
